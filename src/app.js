@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Banking System' });
+    res.json({'Welcome to the Banking System'});
 });
 
 app.use('/api/accounts', accountRoutes);
